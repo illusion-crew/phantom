@@ -77,14 +77,15 @@
     display: flex;
     justify-content: left;
     height: 100%;
+        filter: blur(8px);
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .card[data-settings-card] > .card-hidden > .card-settings-value {
     display: flex;
     justify-content: right;
-    filter: blur(8px);
-    transition: filter 0.3s ease-in-out;
-    cursor: pointer;
+    
 }
 
 .unveil {
