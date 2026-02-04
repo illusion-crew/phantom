@@ -1,6 +1,6 @@
 function KakaoAD() {
     return (
-        <div className="ad-container" style={{ gridColumn: "-1" }}>
+        <div className="ad-container" style={{ gridColumn: "-2" }}>
             <ins className="kakao_ad_area" style={{ display: "none" }}
             data-ad-unit = "DAN-rUUUDtlwQxC289kQ"
             data-ad-width = "300"
