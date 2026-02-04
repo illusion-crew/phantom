@@ -90,7 +90,6 @@ function MainApplication() {
                     />
                 </div>
             </div>
-            <KakaoAD />
             <AddServiceModal reload_ui={() => set_navigate_token(navigate_token + 1)} ref={service_modal_ref} />
         </div>
     );

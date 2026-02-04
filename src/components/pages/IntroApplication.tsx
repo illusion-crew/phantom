@@ -109,7 +109,6 @@ function IntroApplication() {
                 <br />
                 <br />
             </div>
-            <KakaoAD />
         </div>
     );
 }

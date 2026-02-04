@@ -6,6 +6,7 @@ import MainApplication from "./components/pages/MainApplication";
 import SettingsApplication from "./components/pages/SettingsAppliation";
 import IntroApplication from "./components/pages/IntroApplication";
 import AuthNavigator from "./components/pages/AuthNavigator";
+import KakaoAD from "./components/ui/KakaoAD";
 
 const router = createBrowserRouter([
     {
@@ -21,5 +22,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
         <RouterProvider router={router} />
+        <KakaoAD />
     </React.StrictMode>,
 )

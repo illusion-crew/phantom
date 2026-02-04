@@ -154,7 +154,6 @@ function SettingsApplication() {
                     configuration_data={password_recovery_config}
                 />
             </div>
-            <KakaoAD />
         </div>
     );
 }
