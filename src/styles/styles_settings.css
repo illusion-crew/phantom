@@ -82,16 +82,16 @@
     cursor: pointer;
 }
 
+.card[data-settings-card] > .card-hidden > .card-settings-key:hover {
+    filter: none;
+}
+
 .card[data-settings-card] > .card-hidden > .card-settings-value {
     display: flex;
     justify-content: right;
     filter: blur(8px);
     transition: filter 0.3s ease-in-out;
     cursor: pointer;
-}
-
-.unveil {
-    filter: none !important;
 }
 
 .unveil {
