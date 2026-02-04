@@ -104,7 +104,7 @@ function SettingsApplication() {
         {
             key: (
                 <div className="card-group" data-newline-on-smallscreen>
-                    <input type="text" ref={recover_pwd_input_ref} className="card-input card-nointeraction" placeholder="Original Password" />
+                    <input type="password" ref={recover_pwd_input_ref} className="card-input card-nointeraction" placeholder="Original Password" />
                     <input type="button" onClick={recover_pwd_handler} className="card-btn card-btn-smart card-nointeraction" value="Mint" />
                 </div>
             ),
