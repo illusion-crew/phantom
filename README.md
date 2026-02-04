@@ -8,6 +8,7 @@ One Key for One Lock
 - [Benefits](#benefits)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Roadmap](#roadmap)
 - [License](#license)
 
 ## Overview
@@ -42,6 +43,9 @@ Contributions are welcome!
 1. Fork the repository  
 2. Create a new branch  
 3. Submit a pull request with improvements or examples
+
+## Roadmap
+- [ ] Browser Extension Support(TBD)
 
 ## License
 This project is licensed under GNU General Public License v3.0.  
