@@ -77,26 +77,23 @@
     display: flex;
     justify-content: left;
     height: 100%;
-    filter: blur(8px);
-    transition: filter 0.3s ease-in-out;
+}
+
+.blur {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
     cursor: pointer;
 }
 
-.card[data-settings-card] > .card-hidden > .card-settings-key:hover {
-    filter: none;
+.blur:hover {
+    filter: none !important;
 }
 
 .card[data-settings-card] > .card-hidden > .card-settings-value {
     display: flex;
     justify-content: right;
-    filter: blur(8px);
-    transition: filter 0.3s ease-in-out;
-    cursor: pointer;
 }
 
-.unveil {
-    filter: none !important;
-}
 
 .card-settings-key[data-fit-align], .card-settings-value[data-fit-align] {
     height: fit-content;
