@@ -92,8 +92,8 @@
 .card[data-settings-card] > .card-hidden > .card-settings-value {
     display: flex;
     justify-content: right;
-}
 
+}
 
 .card-settings-key[data-fit-align], .card-settings-value[data-fit-align] {
     height: fit-content;
