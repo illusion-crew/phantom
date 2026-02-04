@@ -60,7 +60,7 @@ function SettingsCard({ configuration_name, configuration_data, trimmed_config, 
                         configuration_data.map(({ key, value }: Configuration) => {
                             return value ? 
                             <>
-                                <div className="card-settings-key card-interaction" data-fit-align={fit_align}>{key}</div>
+                                <div onclick="this.classList.toggle('unveil')" className="card-settings-key card-interaction" data-fit-align={fit_align}>{key}</div>
                                 <div className="card-settings-value card-interaction" data-fit-align={fit_align}>{value}</div>
                             </> :
                             <>

@@ -58,7 +58,7 @@ function ServiceCard({ img, service_name, jwt_auth_token, ...props } : ServiceCa
             style_config={hidden_style}
             hidden_content={(
                 <>
-                    <input type="text" className="card-input" ref={password_input_ref} placeholder="Original Password" />
+                    <input type="password" className="card-input" ref={password_input_ref} placeholder="Original Password" />
                     <input type="button" className="card-btn card-btn-smart" onClick={mint_password_handler} value="Mint" />
                 </>
             )}
